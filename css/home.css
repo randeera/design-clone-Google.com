@@ -1,6 +1,10 @@
 header{
     display: flex;
     height: 10vh;
+    justify-content: end;
+    gap: 10px;
+    padding-right: 20px;
+    padding-top: 15px;
 }
 
 main{
