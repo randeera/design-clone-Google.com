@@ -57,7 +57,8 @@ input{
     display: flex;
     justify-content: center;
     gap: 10px;
-    height: 40px;
+    height: 35px;
+
     
 }
 
@@ -67,9 +68,17 @@ form{
     gap: 30px;
 }
 
+main form div button{
+    border-width: 0;
+    border-color: white;
+    border-radius: 4px;
+    width: 135px;
+    background-color: rgb(248, 244, 244);
+}
+
 main form div button:hover{
     cursor: pointer;
-    background-color: rebeccapurple;
+    border: 1px soild darkgray;
 }
 
 
