@@ -1,8 +1,8 @@
 header{
-    background-color: yellow;
+
     display: flex;
     height: 6vh;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
     gap: 15px;
     padding-right: 20px;
@@ -50,8 +50,20 @@ header nav a:hover{
     font-weight: bold;
 }
 
-#app-icon::after{
-    content: "Google apps";
+#google-app-box{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+
+#google-app-box:hover{
+
+    background-color: rgba(32,33,36,.1);
+   
 }
 
 header nav:hover{
