@@ -12,15 +12,26 @@ header{
     /* padding-top: 15px; */
 }
 
-header nav button{
+#sign-in{
     background-color: #1a73e8;
+    padding: 10px 15px;
     width: 100px;
     height: 35px;
     border-radius: 4px;
     color: white;
     border: 0 solid #1a73e8;
-    
+    text-decoration: none;
+    text-align:center;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 16px;
+}
 
+#sign-in:hover{
+   
+    background-color: #0857be;
+    
 }
 
 header nav a{
@@ -37,7 +48,10 @@ header nav a:hover{
     color: #5f6368;
     font-size: 20px;
     font-weight: bold;
-    
+}
+
+#app-icon::after{
+    content: "Google apps";
 }
 
 header nav:hover{
@@ -103,11 +117,23 @@ main{
     
 }
 
-input{
+#input-wrapper{
+    border: 1px solid #dfe1e5;
+    display: flex;
+    align-items: center;
+    gap: 10px;
     width: 60vh;
-    height: 45px;
-    border-radius: 30px;
-    
+    height: 46px;
+    border-radius: 24px;
+    padding: 0px , 20px, 10px, 15px;
+    max-width: 582px;
+    min-width: 358px;
+    margin: 0 25%;
+}
+
+#input-wrapper:hover{
+    box-shadow: 1px 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
 }
 
 #submit-button{
@@ -115,7 +141,6 @@ input{
     justify-content: center;
     gap: 10px;
     height: 35px;
-
     
 }
 
@@ -123,6 +148,8 @@ form{
     display: flex;
     flex-direction: column;
     gap: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 main form div button{
