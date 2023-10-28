@@ -165,13 +165,13 @@ main{
 #mic-icon a img{
     width: 15px;
     display: flex;   
-    margin-right: 9px;
+    margin-right: 13px;
 }
 
 #lense-icon a img{
     width: 25px;
     display: flex;  
-    margin-right: 3px;  
+    margin-right: 10px;  
 }
 
 
@@ -186,7 +186,7 @@ input[type=text]{
     line-height: 22px;
     flex-grow: 1;
     flex-wrap: wrap;
-    background-color: yellow;
+    /* background-color: yellow; */
 
 }
 
