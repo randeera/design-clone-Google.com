@@ -125,7 +125,7 @@ main{
     align-content: center;
     gap: 25px;
     height: 83vh;
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
     
 }
 
@@ -147,6 +147,33 @@ main{
     box-shadow: 1px 1px 6px rgba(32,33,36,.28);
     border-color: rgba(223,225,229,0);
 }
+
+#search-icon{
+    
+    margin-left: 10px;
+    color: #7e7e80;
+    font-weight: bold;
+    font-size: 16px;
+    
+
+}
+
+#mic-icon, #lense-icon{
+    width: 24px;
+    height: 0.24px;
+}
+
+input[type=text]{
+    height: 45px;
+    font-size: 1.2rem;
+    padding-left: 20px;
+    width: 580px;
+    border: unset;
+    outline: none;
+    line-height: 22px;
+    flex-grow: 1;
+}
+
 
 #submit-button{
     display: flex;
