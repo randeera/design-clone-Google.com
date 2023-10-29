@@ -130,7 +130,7 @@ main{
 
 
 input[type=text]{
-    height: 45px;
+    height: 44px;
     font-size: 1.0rem;
     padding-left: 20px;
     width: 90vw;
@@ -190,6 +190,7 @@ form{
     /* background-color: #f8f9fa; */
     border: 0.8px solid #dadce0;
     /* color: #202124; */
+    cursor: pointer;
 
 
 }
