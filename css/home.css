@@ -72,11 +72,6 @@ header nav:hover{
 
 
 
-#footer-elements{
-    color: red;
-}
-
-
 main{
     display: flex;
     flex-direction: column;
@@ -167,7 +162,8 @@ form{
     align-items: center;
 }
 
-main form div button{
+.btn{
+    display: flex;
     border-width: 0;
     border-color: unset;
     border-radius: 4px;
@@ -181,10 +177,15 @@ main form div button{
     min-width: 54px;
     text-align: center;
     user-select: none;
+    color: black;
+    align-items: center;
+    justify-content: center;
+
+;
 
 }
 
-main form div button:hover{
+.btn:hover{
     box-shadow: 0 1px 1px rgba(0,0,0,.1);
     /* background-color: #f8f9fa; */
     border: 0.8px solid #dadce0;
@@ -225,6 +226,8 @@ ul{
     display: flex;
     justify-content: space-between;
     padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .panel ul li{
@@ -234,6 +237,7 @@ ul{
 p{
     color: rgb(116, 114, 114);
     font-size: 14px;
+    
 }
 
 .footer-elements{
@@ -243,6 +247,7 @@ p{
 
 .footer-elements:hover{
     text-decoration: underline;
+    
 }
 
     
