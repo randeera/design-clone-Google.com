@@ -70,29 +70,11 @@ header nav:hover{
     cursor: pointer;
 }
 
-footer{
-    background-color: rgba(146, 146, 138, 0.1);
-    font-size: 13px;
-    color: #6e7074;
-    text-decoration: none;
-    line-height: 45px;
+
+
+#footer-elements{
+    color: red;
 }
-
-ul{
-    display: flex;
-    gap: 15px;
-    
-    text-decoration: none;
-    color: #6e7074;
-
-
-}
-
-
-
-
-
-
 
 
 main{
@@ -136,8 +118,6 @@ main{
     font-weight: bold;
     font-size: 16px;
     
-    
-
 }
 
 #mic-icon a img{
@@ -225,5 +205,44 @@ main div p{
     
 }
 
+footer{
+    background-color: rgba(146, 146, 138, 0.1);
+    font-size: 13px;
+    color: #6e7074;
+    text-decoration: none;
+    line-height: 20px;
+
+}
+
+ul{
+    display: flex;
+    gap: 10px;
+}
+
+.panel{
+    border-bottom: 1px solid #dbcdcd;
+    height: 5.5vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.panel ul li{
+    color: #6e7074;
+}
+
+p{
+    color: rgb(116, 114, 114);
+    font-size: 14px;
+}
+
+.footer-elements{
+    color: #6e7074;
+    text-decoration: none;
+}
+
+.footer-elements:hover{
+    text-decoration: underline;
+}
 
     
