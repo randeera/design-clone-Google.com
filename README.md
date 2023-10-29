@@ -14,7 +14,7 @@ A web clone of google.com was created to practice my HTML and CSS skills. This i
 
 ### Demo
 
-* [Click here](https://github.com/randeera/design-clone-Google.com) to see the demo website.
+* [Click here](https://randeera.github.io/design-clone-Google.com/) to see the demo website.
 
 ### version
 1.0.0
