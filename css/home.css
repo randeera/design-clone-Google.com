@@ -181,8 +181,6 @@ form{
     align-items: center;
     justify-content: center;
 
-;
-
 }
 
 .btn:hover{
@@ -191,7 +189,6 @@ form{
     border: 0.8px solid #dadce0;
     /* color: #202124; */
     cursor: pointer;
-
 
 }
 
@@ -252,4 +249,9 @@ p{
     
 }
 
-    
+@media screen and (max-width:684px){
+    footer:last-child{
+        display: grid;
+        
+    }
+}
